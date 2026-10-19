@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Learning Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f8fb;
+        }
+        /* Navbar */
+        .navbar {
+            background-color: #1b365d;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+        }
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(to right, #d9e8f5, #ffffff);
+            padding: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .hero-text h1 {
+            color: #1b365d;
+            margin-bottom: 10px;
+        }
+        .btn {
+            background-color: #0066cc;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        /* Features & Video Section */
+        .content-section {
+            display: flex;
+            justify-content: space-around;
+            padding: 30px;
+            background: white;
+            margin: 20px;
+            border-radius: 8px;
+        }
+        .features ul {
+            list-style: none;
+            padding: 0;
+        }
+        .features li {
+            margin: 10px 0;
+        }
+        /* Table */
+        .table-section {
+            padding: 20px 30px;
+            background: white;
+            margin: 20px;
+            border-radius: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #dcdcdc;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #eaf2fb;
+            color: #1b365d;
+        }
+        /* Footer */
+        footer {
+            background-color: #1b365d;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <h2>🎓 Student Learning Hub</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero-text">
+            <h1>Learn Today <br> Build Your Future</h1>
+            <p>We provide online courses, career guidance and support to help you grow.</p>
+            <button class="btn">Explore Courses</button>
+        </div>
+    </div>
+
+    <!-- Features & Video -->
+    <div class="content-section">
+        <div class="features">
+            <h3>Our Features</h3>
+            <ul>
+                <li>💻 Online Courses</li>
+                <li>👥 Student Support</li>
+                <li>📊 Career Guidance</li>
+                <li>🌱 Modern Environment</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Watch Our Video</h3>
+            <video width="300" controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support video.
+            </video>
+        </div>
+    </div>
+
+    <!-- Table Section -->
+    <div class="table-section">
+        <h3>Student Information</h3>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Semester</th>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>Ali Raza</td>
+                <td>CS</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Ayesha Khan</td>
+                <td>SE</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Hassan Shah</td>
+                <td>IT</td>
+                <td>3</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Student Learning Hub. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
